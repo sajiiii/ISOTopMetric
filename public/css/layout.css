@@ -1270,6 +1270,8 @@ footer .social-links li:first-child {
   }
   #specification {
     height: auto !important;
+  }
+  #specification {
     padding-top: 0% !important;
   }
 }
