@@ -1264,3 +1264,12 @@ footer .social-links li:first-child {
 .github-btn {
   background-color: #1abc9c !important;
 }
+@media only screen and (max-width: 767px) {
+  #service .blocks {
+    width: 97% !important;
+  }
+  #specification {
+    height: auto !important;
+    padding-top: 0% !important;
+  }
+}
