@@ -1,0 +1,194 @@
+{
+  "main": {
+    "name":"TOPMETRIC",
+    "description":"At TopMetric, your certification is guaranteed. Our conviction is in offering hassle-free professional consulting services to fulfill our clients' requirements and expectations. The certification solutions offered by our expert consultants make sure that you not only get the certificate; but also get the true business benefits for your organization.Our approach is straightforward and easy to understand. We are one of the handfuls of professional consulting companies with a global customer base and an illustrious service portfolio that covers all the International Quality Certifications.",
+    "image":"profilepic.jpg",
+    "bio":"KwikCert is one of the few consulting organizations in the world that has domain expertise in the majority of all industry sectors. Our unmatched expertise and comprehension of the global economies make it easier for your organization to achieve any International Certification. We avoid using any dense and jargon-loaded words in our training and implementations in the interest of your employees. Our certification programmes have been designed to assist your company to maintain a high level of compliance that is in line with the industry best practices.",
+    "subBio":"If you are thinking of certification for your company, trust our expertise and experience in this field and partner with us to create a winning solution for the success and growth of your business.",
+    "consulting":"Surge ahead of your competitors and have a winning edge to acquire a client by getting certified.",
+    "subConsulting":"Demonstrating that your services and products are of the best-in-class Quality will ensure a proactive domination in the competitive market thus making it easier in acquiring new clients",
+    "training":"Provided by expert consultants from across all industry domains.",
+    "Documentation":"We follow a well documented approach for your certification process.",
+    "Support":"Avail access to our 24X7 support team post certification as well.",
+    "standards":[{"name":"ISO 9001 CERTIFICATION","tag":"Quality Management System"},{"name":"ISO 45001 CERTIFICATION","tag":"Occupational Health & Safety Management"},{"name":"ISO 17025 CERTIFICATION","tag":"Testing And Calibration Laboratories"},{"name":"ISO 27001 Certification","tag":"Information Security Management System"},{"name":"ISO 50001 Certification","tag":"Energy Management System (EMS)"},{"name":"ISO 14001 CERTIFICATION","tag":"Environment Management System"},{"name":"ISO 22000 CERTIFICATION","tag":"Food Management System"},{"name":"ISO 13485 Certification","tag":"Quality Management for Medical Devices"},{"name":"ISO 22301 CERTIFICATION","tag":"Business Contuinity Management System"},{"name":"VAPT Certification","tag":"Vulnerability Assessment & Penetration Testing"},{"name":"PCI DSS Certification","tag":"Payment Card Industry Data Security Standard"},{"name":"CE MARKING CERTIFICATION","tag":"Conformité Européene"},{"name":"CMMI Certification","tag":"Capability Maturity Model Integration"},{"name":"HALAL Certification","tag":"HALAL Certification"},{"name":"HIPPA Certification","tag":"Health Insurance Portability and Accountability Act,"},{"name":"EU GDPR CERTIFICATION","tag":"EU General Data Protection Regulation"},{"name":"HACCP CERTIFICATION","tag":"Hazard Analysis and Critical Control Point"},{"name":"SOC Certification","tag":"System and Organization Controls"}],
+    "Specification":[{"name":"GLOBAL LOCATION","number":"10","image":""},{"name":"CONSULTANTS","number":"230","image":""},{"name":"CERTIFICATIONS","number":"1210","image":""},{"name":"HAPPY CLIENTS","number":"100%","image":""}],
+    "Guaranted":"With TopMetric, it is Certification Guaranteed. No Certification, No Fees !",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "youremailhere@gmail.com",
+    "phone": "555-555-5555",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University?",
+        "degree":"Masters in Beer tasting",
+        "graduated":"April 2017",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"School #1 Maybe College?",
+        "degree":"What did you study 101",
+        "graduated":"March 2013",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2018 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2017 - February 2018",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Swift",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"01.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}
