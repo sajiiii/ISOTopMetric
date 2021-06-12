@@ -29,22 +29,37 @@ class Header extends Component {
                 Home
               </a>
             </li>
-
             <li>
-              <select className="solid" id="consultingProcess">
-                <option value="consulting Process">consulting Process</option>
-                <option>GAP ANALYSIS</option>
-                <option >Awarness Training</option>
-                <option >Documentation Support</option>
-                <option >Internal Audit Training</option>
-                <option >Internal Audit</option>
-                <option >Exnternal Audit</option>
-              </select>
-              
+              <a className="smoothscroll" href="#ourexpertise">
+                Our Expertise
+              </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#about">
-                Our Expertise
+              <a className="smoothscroll" href="#consulting">
+                Consulting Service
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#service">
+                Our Services
+              </a>
+            </li>
+            <li>
+              <div className="dropdown">
+                <span>consulting Process</span>
+                <div class="dropdown-content">
+                  <p>GAP ANALYSIS</p>
+                  <p>Awarness Training</p>
+                  <p>Documentation Support</p>
+                  <p>Internal Audit Training</p>
+                  <p>Internal Audit</p>
+                  <p>Exnternal Audit</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#specification">
+                Insight
               </a>
             </li>
 

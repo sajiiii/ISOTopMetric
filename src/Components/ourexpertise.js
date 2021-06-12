@@ -8,7 +8,7 @@ class OurExpertise extends Component {
     const subBio = this.props.data.subBio;
 
     return (
-      <section id="about">
+      <section id="ourexpertise">
         <Fade duration={1000}>
           <div className="row">
             <div className="nine columns main-col">
