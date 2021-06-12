@@ -24,25 +24,25 @@ class Consulting extends Component {
             <div className="six columns main-col">
             <div className="six columns main-col pop ">
         <div>
-          <h2>Training</h2>
+          <h2 className="training">Training</h2>
           <p className='textpage'>{Training}</p>
         </div>
             </div>
             <div className="six columns main-col pop">
             <div>
-          <h2>Documentation</h2>
+          <h2 className="documentation">Documentation</h2>
           <p className='textpage'>{Documentation}</p>
         </div>
             </div>
             <div className="six columns main-col pop ">
             <div>
-          <h2>Support</h2>
+          <h2 className="support">Support</h2>
           <p className='textpage'>{Support}</p>
         </div>
             </div>
             <div className="six columns main-col pop">
             <div>
-          <h2>Guaranted</h2>
+          <h2 className="guaranted">Guaranted</h2>
           <p className='textpage'>{Guaranted}</p>
         </div>
             </div>

@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "topmetric-a5915"
+    "default": "topmetric-a5915",
+    "topmetric": "topmetrictechnologies"
   }
 }
