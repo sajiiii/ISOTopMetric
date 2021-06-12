@@ -850,7 +850,22 @@ input[type="checkbox"] {
     rgb(2, 213, 255)
   );
 }
-
+.pop .training:before {
+  margin-right: 47%;
+  content: url("../images/computer.png");
+}
+.pop .documentation:before {
+  margin-right: 47%;
+  content: url("../images/document.png");
+}
+.pop .support:before {
+  margin-right: 47%;
+  content: url("../images/headphones.png");
+}
+.pop .guaranted:before {
+  margin-right: 47%;
+  content: url("../images/support.png");
+}
 .pop:hover {
   box-shadow: -1px 2px 4px 4px #00000054;
 }
