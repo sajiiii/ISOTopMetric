@@ -39,25 +39,6 @@ header {
   text-align: center;
   overflow: hidden;
 }
-.dropdown {
-  color: red;
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 /* vertically center banner section */
 header:before {
@@ -226,6 +207,28 @@ ul#nav li a:active {
 ul#nav li.current a {
   color: #fe6928;
 }
+.dropdown {
+  cursor: pointer;
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #949494e3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  width: 263px;
+  margin-left: -37px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -284,6 +287,56 @@ ul#nav li.current a {
   margin-right: 15px;
   font-size: 20px;
 }
+/* ------------------------------------------------------------------ */
+/* d. Consulting Section
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+
+#ourexpertise {
+  background: #000524;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+#ourexpertise a,
+#ourexpertise a:visited {
+  color: #fff;
+}
+#ourexpertise a:hover,
+#ourexpertise a:focus {
+  color: #0762f9;
+}
+
+#ourexpertise h2 {
+  font: 22px/30px "opensans-bold", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#ourexpertise p {
+  line-height: 30px;
+  color: #ccc;
+}
+#ourexpertise .profile-pic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+#ourexpertise .contact-details {
+  width: 41.66667%;
+}
+#ourexpertise .download {
+  width: 58.33333%;
+  padding-top: 6px;
+}
+#ourexpertise .main-col {
+  padding-right: 5%;
+}
+
 /* ------------------------------------------------------------------ */
 /* d. Consulting Section
 /* ------------------------------------------------------------------ */
