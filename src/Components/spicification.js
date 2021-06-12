@@ -7,7 +7,7 @@ class Specification extends Component {
       return (
           
         <div className="three columns main-col blocks">
-        <h1 className={element.image}></h1>
+        <h1 className={element.image}> </h1>
           <h1 >
             {element.number}
           </h1>
