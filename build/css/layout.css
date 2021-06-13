@@ -35,9 +35,13 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-
   text-align: center;
   overflow: hidden;
+  background-image: url("../images/globe.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* vertically center banner section */
@@ -80,7 +84,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #ddd;
+  color: #fff;
   margin: 0 auto;
   width: 70%;
 }
@@ -296,12 +300,19 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #ourexpertise {
-  background: #000524;
+  background-image: url("../images/ourexpertise.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
 }
-
+#ourexpertise .main-col {
+  background-color: #00000078;
+  padding-top: 3%;
+}
 #ourexpertise a,
 #ourexpertise a:visited {
   color: #fff;
@@ -318,7 +329,11 @@ ul#nav li.current a {
 }
 #ourexpertise p {
   line-height: 30px;
-  color: #ccc;
+  color: #fff;
+}
+#ourexpertise p {
+  line-height: 40px;
+  color: #fff;
 }
 #ourexpertise .profile-pic {
   position: relative;
