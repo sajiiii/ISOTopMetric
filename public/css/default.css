@@ -825,16 +825,11 @@ input[type="checkbox"] {
   float: left;
 }
 .pad {
-  background-color: #736c6d26 !important;
+  background-color: #0e0e0e52 !important;
   padding-top: 10% !important;
   padding-bottom: 10% !important;
   box-shadow: 7px 7px 12px #f7f7f747;
   border-radius: 11px;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 0, 0, 0),
-    rgb(2, 213, 255)
-  );
 }
 .pop {
   padding: 28px;
@@ -844,11 +839,7 @@ input[type="checkbox"] {
   width: 47% !important;
   transition: all 0.3s;
   margin-right: 14px !important;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 0, 0, 0),
-    rgb(2, 213, 255)
-  );
+  background-color: #0e0e0e52;
 }
 .pop .training:before {
   margin-right: 47%;

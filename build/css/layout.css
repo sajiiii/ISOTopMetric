@@ -357,7 +357,11 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #consulting {
-  background: #3dc5e4;
+  background-image: url("../images/consult.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -374,7 +378,7 @@ ul#nav li.current a {
 
 #consulting h2 {
   font: 22px/30px "opensans-bold", sans-serif;
-  color: black;
+  color: white;
   margin-bottom: 12px;
 }
 #consulting p {
