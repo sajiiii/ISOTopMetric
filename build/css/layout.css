@@ -431,6 +431,75 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
+/* d. Benefits Section
+/* ------------------------------------------------------------------ */
+
+#benefits {
+  background-color: transparent;
+  /* background-image: url("../images/specifiaction.jpg"); */
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+#benefits .benefitsBox {
+  text-align: center !important;
+}
+#benefits p {
+  margin: 0 !important;
+}
+#benefits .blocks {
+  color: #fff;
+  margin-top: 8%;
+  width: 30% !important;
+  margin-right: 30px;
+  text-align: center !important;
+}
+#benefits .blocks .certificate:before {
+  content: url("../images/certificate.png");
+}
+#benefits .blocks .revenue:before {
+  content: url("../images/revenue.png");
+}
+#benefits .blocks .improvement:before {
+  content: url("../images/improvement.png");
+}
+#benefits .blocks .quality:before {
+  content: url("../images/quality.png");
+}
+#benefits .blocks .global:before {
+  content: url("../images/global.png");
+}
+#benefits .blocks .tender:before {
+  content: url("../images/tender.png");
+}
+#benefits .blocks h1,
+h2,
+h5,
+h4 {
+  color: #fff;
+}
+#benefits .benefitsBox hr {
+  width: 14%;
+  margin-left: 43%;
+}
+#benefits a,
+#benefits a:visited {
+  background-image: url("../images/specifiaction.jpg");
+}
+#benefits a:hover,
+#benefits a:focus {
+  color: #0762f9;
+}
+#benefits p {
+  line-height: 30px;
+  color: #ffff;
+}
+
+/* ------------------------------------------------------------------ */
 /* d. Specifications Section
 /* ------------------------------------------------------------------ */
 
