@@ -1552,6 +1552,10 @@ footer .social-links li:first-child {
   #benefits .blocks {
     margin-left: 36% !important;
   }
+  #team .blocks {
+    width: 75% !important;
+    margin-left: 12% !important;
+  }
   #specification {
     padding-top: 0% !important;
   }
