@@ -15,6 +15,7 @@ import Specification from "./Components/spicification";
 // import Infibanner from "./Components/infinitebanner";
 import Benefits from "./Components/certificationbenefits";
 import OurTeam from "./Components/ourteam";
+import Testimonials from "./Components/testimonials";
 
 class App extends Component {
   constructor(props) {
@@ -59,10 +60,11 @@ class App extends Component {
         <Specification data={this.state.resumeData.main} />
         <Benefits data={this.state.resumeData.main} />
         <OurTeam data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
+        <Testimonials data={this.state.resumeData.main} />
+        {/* <Resume data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
+        <Footer data={this.state.resumeData.main} /> */}
       </div>
     );
   }

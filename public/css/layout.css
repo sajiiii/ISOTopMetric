@@ -431,7 +431,7 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
-/* d. Benefits Section
+/* d. team Section
 /* ------------------------------------------------------------------ */
 
 #team {
@@ -534,6 +534,39 @@ h4 {
 #team p {
   line-height: 30px;
   color: #ffff;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. testimonial Section
+/* ------------------------------------------------------------------ */
+
+#testimonial {
+  background-color: black;
+  /* background-image: url("../images/specifiaction.jpg"); */
+  padding-top: 12%;
+  padding-bottom: 10%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+#testimonial .testimonialBox {
+  text-align: center !important;
+}
+#testimonial .testimonialBox h5 {
+  color: #fff;
+  letter-spacing: 6px;
+}
+#testimonial .testimonialBox h1 {
+  color: #fff;
+}
+
+#testimonial .testimonialBox hr {
+  width: 8%;
+  margin-left: 46%;
+  margin-top: 2%;
+  border-color: #ff0000;
 }
 
 /* ------------------------------------------------------------------ */
