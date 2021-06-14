@@ -62,6 +62,11 @@ class Header extends Component {
                 Insight
               </a>
             </li>
+            <li>
+              <a className="smoothscroll" href="#benefits">
+                Certification Benefits
+              </a>
+            </li>
 
             <li>
               <a className="smoothscroll" href="#resume">

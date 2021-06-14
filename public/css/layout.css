@@ -1443,6 +1443,9 @@ footer .social-links li:first-child {
   #specification {
     height: auto !important;
   }
+  #benefits .blocks {
+    margin-left: 36% !important;
+  }
   #specification {
     padding-top: 0% !important;
   }
