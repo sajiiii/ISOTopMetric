@@ -21,7 +21,7 @@ class Benefits extends Component {
 
     return (
       <section id="benefits">
-        <Fade duration={1000}>
+        {/* <Fade duration={1000}> */}
           <div className=" benefitsBox">
           <Fade bottom>
               <h5>CERTIFICATION BENEFITS</h5>
@@ -33,7 +33,7 @@ class Benefits extends Component {
             
             {this.loopName()}
           </div>
-        </Fade>
+        {/* </Fade> */}
       </section>
     );
   }
