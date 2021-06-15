@@ -6,10 +6,12 @@ class Contact extends Component {
     e.preventDefault(); // Prevents default refresh by the browser
    window.emailjs.send('service_b6ed0lx', 'template_9vohlof', formData)
     .then(function(response) {
-      alert("Thanks for Your The Query...!");
+      // alert("Thanks for Your The Query...!");
       document.getElementById("contactForm").reset();
        console.log('SUCCESS!', response.status, response.text);
     }, function(error) {
+
+      // alert("Thanks for Your The Query...!");
        console.log('FAILED...', error);
     });
     };
