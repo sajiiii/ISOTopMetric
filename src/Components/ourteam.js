@@ -36,7 +36,6 @@ return  this.props.data.social.map(function (network,i) {
 
     return (
       <section id="team">
-        {/* <Fade duration={1000}> */}
           <div className=" teamBox">
             <Fade bottom>
               <h5>OUR TEAM</h5>
@@ -46,7 +45,6 @@ return  this.props.data.social.map(function (network,i) {
 
             {this.loopName()}
           </div>
-        {/* </Fade> */}
       </section>
     );
   }

@@ -9,7 +9,7 @@ class OurExpertise extends Component {
 
     return (
       <section id="ourexpertise">
-        <Fade duration={1000}>
+       
           <div className="row">
             <div className="nine columns main-col">
               <h2>Our Expertise</h2>
@@ -71,7 +71,6 @@ class OurExpertise extends Component {
               </p>
              </div>
           </div>
-        </Fade>
       </section>
     );
   }

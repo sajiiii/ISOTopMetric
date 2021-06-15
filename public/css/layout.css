@@ -1599,7 +1599,9 @@ footer .social-links li:first-child {
     height: auto !important;
   }
   #benefits .blocks {
-    margin-left: 36% !important;
+    /* margin-left: 36% !important; */
+    margin-left: 0 !important;
+    width: auto !important;
   }
   #team .blocks {
     width: 75% !important;

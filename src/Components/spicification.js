@@ -21,12 +21,10 @@ class Specification extends Component {
 
     return (
       <section id="specification">
-        <Fade duration={1000}>
           <div className=" specificationBox">
             
             {this.loopName()}
           </div>
-        </Fade>
       </section>
     );
   }

@@ -13,7 +13,6 @@ class Consulting extends Component {
 
     return (
       <section id="consulting">
-        <Fade duration={1000}>
           <div className="row">
             <div className="six columns main-col pad">
               <h2>Consulting Services</h2>
@@ -49,7 +48,6 @@ class Consulting extends Component {
              
              </div>
           </div>
-        </Fade>
       </section>
     );
   }

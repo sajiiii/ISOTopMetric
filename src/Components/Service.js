@@ -20,7 +20,6 @@ class Service extends Component {
 
     return (
       <section id="service">
-        <Fade duration={1000}>
           <div className=" serviceBox">
             <Fade bottom>
               <h5>OUR SERVICES</h5>
@@ -30,7 +29,6 @@ class Service extends Component {
             </Fade>
             {this.loopName()}
           </div>
-        </Fade>
       </section>
     );
   }
