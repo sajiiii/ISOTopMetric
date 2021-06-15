@@ -25,13 +25,27 @@ class Header extends Component {
 
           <ul id="nav" className="nav">
             <li className="current">
-              <a className="smoothscroll" href="#home">
-                Home
-              </a>
+              <div className="dropdown">
+                <a className="smoothscroll" href="#home">
+                  Home
+                </a>
+                <div class="dropdown-content-home">
+                  <li>
+                    <a className="smoothscroll" href="#specification">
+                      Insight
+                    </a>
+                  </li>
+                  <li>
+                    <a className="smoothscroll" href="#benefits">
+                      Certification Benefits
+                    </a>
+                  </li>
+                </div>
+              </div>
             </li>
             <li>
               <a className="smoothscroll" href="#ourexpertise">
-                Our Expertise
+                About
               </a>
             </li>
             <li>
@@ -57,29 +71,6 @@ class Header extends Component {
                 </div>
               </div>
             </li>
-            <li>
-              <a className="smoothscroll" href="#specification">
-                Insight
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#benefits">
-                Certification Benefits
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
-            </li>
-
             <li>
               <a className="smoothscroll" href="#contact">
                 Contact
