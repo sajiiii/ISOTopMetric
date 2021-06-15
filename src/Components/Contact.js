@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
-import apiKey from './emailkey';
-import emailjs from 'emailjs-com';
 let formData={};
 class Contact extends Component {
    handleSubmit=(e)=>  {
@@ -9,7 +7,7 @@ class Contact extends Component {
     e.preventDefault(); // Prevents default refresh by the browser
    window.emailjs.send('service_b6ed0lx', 'template_9vohlof', formData)
     .then(function(response) {
-      alert("Thanks for Your Feedback...!");
+      // alert("Thanks for Your Feedback...!");
       document.getElementById("contactForm").reset();
        console.log('SUCCESS!', response.status, response.text);
     }, function(error) {
