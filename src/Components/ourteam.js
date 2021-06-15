@@ -19,11 +19,11 @@ return  this.props.data.social.map(function (network,i) {
         <div className="four columns main-col blocks">
         <img
                 className="profile-pic"
-                src={"images/" + this.props.data.image}
+                src={"images/" + element.image+".jpg"}
                 alt="Pic"
               />
               <h5>{element.name}</h5>
-          <h6 >Director </h6>
+          <h6 >{element.designation}</h6>
           <p>{element.content}</p>
           <div>
               <ul className="social-links">{this.networks(element)}</ul></div>
