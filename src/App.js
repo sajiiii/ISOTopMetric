@@ -61,10 +61,10 @@ class App extends Component {
         <Benefits data={this.state.resumeData.main} />
         <OurTeam data={this.state.resumeData.main} />
         <Testimonials data={this.state.resumeData.main} />
-        {/* <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
+        {/* <Resume data={this.state.resumeData.resume} /> */}
+        {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
         <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} /> */}
+        <Footer data={this.state.resumeData.main} />
       </div>
     );
   }

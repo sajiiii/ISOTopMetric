@@ -1,7 +1,41 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
-
+import apiKey from './emailkey';
+import emailjs from 'emailjs-com';
+let formData={};
 class Contact extends Component {
+   handleSubmit=(e)=>  {
+     console.log(formData)
+    e.preventDefault(); // Prevents default refresh by the browser
+   window.emailjs.send('service_b6ed0lx', 'template_9vohlof', formData)
+    .then(function(response) {
+      alert("Thanks for Your Feedback...!");
+      document.getElementById("contactForm").reset();
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+    };
+    Name=(e)=>{
+
+     console.log(formData)
+      formData.name=e.target.value;
+    }
+    email=(e)=>{
+
+     console.log(formData)
+      formData.to_email=e.target.value;
+    }
+    subject=(e)=>{
+
+     console.log(formData)
+      formData.subject=e.target.value;
+    }
+    message=(e)=>{
+
+     console.log(formData)
+      formData.message=e.target.value;
+    }
   render() {
     if (!this.props.data) return null;
 
@@ -24,7 +58,7 @@ class Contact extends Component {
             </div>
 
             <div className="ten columns">
-              <p className="lead">{message}</p>
+              <h2 className="lead">{message}</h2>
             </div>
           </div>
         </Fade>
@@ -32,7 +66,7 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+              <form  id="contactForm" name="contactForm" >
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -44,7 +78,7 @@ class Contact extends Component {
                       size="35"
                       id="contactName"
                       name="contactName"
-                      onChange={this.handleChange}
+                      onChange={this.Name}
                     />
                   </div>
 
@@ -58,7 +92,7 @@ class Contact extends Component {
                       size="35"
                       id="contactEmail"
                       name="contactEmail"
-                      onChange={this.handleChange}
+                      onChange={this.email}
                     />
                   </div>
 
@@ -70,7 +104,7 @@ class Contact extends Component {
                       size="35"
                       id="contactSubject"
                       name="contactSubject"
-                      onChange={this.handleChange}
+                      onChange={this.subject}
                     />
                   </div>
 
@@ -82,12 +116,12 @@ class Contact extends Component {
                       cols="50"
                       rows="15"
                       id="contactMessage"
-                      name="contactMessage"
+                      name="contactMessage" onChange={this.message}
                     ></textarea>
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit" onClick={this.handleSubmit}>Submit</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -115,35 +149,6 @@ class Contact extends Component {
                   <br />
                   <span>{phone}</span>
                 </p>
-              </div>
-
-              <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
-                <ul id="twitter">
-                  <li>
-                    <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">2 Days Ago</a>
-                    </b>
-                  </li>
-                  <li>
-                    <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">3 Days Ago</a>
-                    </b>
-                  </li>
-                </ul>
               </div>
             </aside>
           </Slide>

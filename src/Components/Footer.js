@@ -27,7 +27,7 @@ class Footer extends Component {
                 <li>
                   Design by{" "}
                   <a title="Styleshout" href="http://www.styleshout.com/">
-                    Styleshout
+                    Saji
                   </a>
                 </li>
               </ul>
