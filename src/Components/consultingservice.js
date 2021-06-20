@@ -29,7 +29,7 @@ class Consulting extends Component {
             </div>
             <div className="six columns main-col pop">
             <div>
-          <h2 className="documentation">Documentation</h2>
+          <h2 className="documentation">Document</h2>
           <p className='textpage'>{Documentation}</p>
         </div>
             </div>

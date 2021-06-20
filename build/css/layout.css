@@ -326,12 +326,15 @@ ul#nav li.current a {
   overflow: hidden;
 }
 #ourexpertise .main-col {
-  background-color: #00000078;
+  background-color: #0e0e0ebd !important;
   padding-top: 3%;
 }
 #ourexpertise a,
 #ourexpertise a:visited {
   color: #fff;
+}
+#ourexpertise .bold {
+  color: orangered;
 }
 #ourexpertise a:hover,
 #ourexpertise a:focus {
@@ -340,7 +343,7 @@ ul#nav li.current a {
 
 #ourexpertise h2 {
   font: 22px/30px "opensans-bold", sans-serif;
-  color: #fff;
+  color: orangered;
   margin-bottom: 12px;
 }
 #ourexpertise p {

@@ -831,6 +831,12 @@ input[type="checkbox"] {
   box-shadow: 7px 7px 12px #f7f7f747;
   border-radius: 11px;
 }
+.pad h2 {
+  color: orangered !important;
+}
+.pop h2 {
+  color: orangered !important;
+}
 .pop {
   padding: 28px;
   color: black !important;
@@ -1096,6 +1102,9 @@ properly.
   }
   .pop {
     margin-top: 10% !important;
+  }
+  .pop h2 {
+    padding-top: 5% !important;
   }
 
   .column,
