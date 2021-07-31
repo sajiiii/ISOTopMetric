@@ -135,6 +135,8 @@ class Contact extends Component {
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
                 <p className="address">
+                Info@topmetrictechnologies.com
+                <br/>
                   {name}
                   <br />
                   {street} <br />
