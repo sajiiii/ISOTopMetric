@@ -846,8 +846,19 @@ input[type="checkbox"] {
   transition: all 0.3s;
   margin-right: 14px !important;
   background-color: #0e0e0ebd;
+  max-height: 200px;
+  min-height: 200px;
 }
-.pop .training:before {
+.pop .block-div {
+  padding-top: 10px;
+}
+.content {
+  font: 22px/30px "opensans-bold", sans-serif;
+  color: orangered !important;
+  margin-bottom: 12px;
+  padding-left: 3px;
+}
+/* .pop .training:before {
   margin-right: 47%;
   content: url("../images/computer.png");
 }
@@ -862,7 +873,7 @@ input[type="checkbox"] {
 .pop .guaranted:before {
   margin-right: 47%;
   content: url("../images/support.png");
-}
+} */
 .pop:hover {
   box-shadow: -1px 2px 4px 4px #00000054;
 }
@@ -1177,6 +1188,15 @@ properly.
 @media screen and (min-width: 1200px) {
   .wide .row {
     max-width: 1180px;
+  }
+}
+@media screen and (max-width: 1059px) {
+  .consult-width {
+    width: 100% !important;
+    margin-bottom: 17px;
+  }
+  .blockwidth {
+    width: 100% !important;
   }
 }
 

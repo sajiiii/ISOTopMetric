@@ -19,7 +19,8 @@ return  this.props.data.social.map(function (network,i) {
         <div className="four columns main-col blocks">
         <img
                 className="profile-pic"
-                src={"images/" + element.image+".jpg"}
+                src={"images/male.png"}
+                // + element.image+".jpg"
                 alt="Pic"
               />
               <h5>{element.name}</h5>

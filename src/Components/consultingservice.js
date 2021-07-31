@@ -13,41 +13,52 @@ class Consulting extends Component {
 
     return (
       <section id="consulting">
-          <div className="row">
-            <div className="six columns main-col pad">
-              <h2>Consulting Services</h2>
+        <div className="row">
+          <div className="six columns main-col pad consult-width">
+            <h2>Consulting Services</h2>
 
-              <p>{consulting}</p>
-              <p>{subConsulting}</p>
-            </div>
-            <div className="six columns main-col">
-            <div className="six columns main-col pop ">
-        <div>
-          <h2 className="training">Training</h2>
-          <p className='textpage'>{Training}</p>
-        </div>
-            </div>
-            <div className="six columns main-col pop">
-            <div>
-          <h2 className="documentation">Document</h2>
-          <p className='textpage'>{Documentation}</p>
-        </div>
-            </div>
-            <div className="six columns main-col pop ">
-            <div>
-          <h2 className="support">Support</h2>
-          <p className='textpage'>{Support}</p>
-        </div>
-            </div>
-            <div className="six columns main-col pop">
-            <div>
-          <h2 className="guaranted">Guaranted</h2>
-          <p className='textpage'>{Guaranted}</p>
-        </div>
-            </div>
-             
-             </div>
+            <p>{consulting}</p>
+            <p>{subConsulting}</p>
           </div>
+          <div className="six columns main-col blockwidth">
+            <div className="six columns main-col pop ">
+              <div>
+              <div className="block-div">
+                  <img src={"images/computer.png"} alt="doc"></img>
+                  <span className="content">Training</span>
+                </div>
+                <p className="textpage">{Training}</p>
+              </div>
+            </div>
+            <div className="six columns main-col pop">
+              <div>
+                <div className="block-div">
+                  <img src={"images/document.png"} alt="doc"></img>
+                  <span className="content">Document</span>
+                </div>
+                <p className="textpage">{Documentation}</p>
+              </div>
+            </div>
+            <div className="six columns main-col pop ">
+              <div>
+              <div className="block-div">
+                  <img src={"images/headphones.png"} alt="doc"></img>
+                  <span className="content">Support</span>
+                </div>
+                <p className="textpage">{Support}</p>
+              </div>
+            </div>
+            <div className="six columns main-col pop">
+              <div>
+              <div className="block-div">
+                  <img src={"images/support.png"} alt="doc"></img>
+                  <span className="content">Guaranted</span>
+                </div>
+                <p className="textpage">{Guaranted}</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     );
   }
