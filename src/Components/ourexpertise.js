@@ -10,7 +10,7 @@ class OurExpertise extends Component {
     return (
       <section id="ourexpertise">
        
-          <div className="row">
+          <div className="row back">
             <div className="nine columns main-col">
               <h2>Our Expertise</h2>
 
