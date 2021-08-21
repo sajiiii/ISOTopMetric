@@ -1664,6 +1664,14 @@ footer .social-links li:first-child {
   background-color: #1abc9c !important;
 }
 @media only screen and (max-width: 767px) {
+  header #contact {
+    padding-top: 10px !important;
+  }
+  header #contact input,
+  #contact textarea,
+  #contact select {
+    margin-bottom: 0px !important;
+  }
   #service .blocks {
     width: 97% !important;
   }
