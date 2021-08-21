@@ -20,6 +20,7 @@ class Contact extends Component {
       }
     );
   };
+  
   Name = (e) => {
     formData.name = e.target.value;
   };
