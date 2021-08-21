@@ -43,6 +43,15 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.logo-icon {
+  display: inline-block;
+  width: 232px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1000;
+  left: 0;
+  bottom: -55px;
+}
 .float-icon {
   display: inline-block;
   width: 38px;
@@ -1667,6 +1676,7 @@ footer .social-links li:first-child {
   header #contact {
     padding-top: 10px !important;
   }
+
   header #contact input,
   #contact textarea,
   #contact select {
