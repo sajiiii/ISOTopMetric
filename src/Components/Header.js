@@ -81,6 +81,7 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
+       
         <div className="float-icon"  onClick={(e) => {
               this.emailFlag();
             }}>
@@ -91,7 +92,7 @@ class Header extends Component {
           ></img>
         </div>
         {this.state.email &&<div className="mail">
-          <Contact data={this.props.data} />
+          <Contact data={this.props.data} close={()=> this.emailFlag()}/>
         </div>}
         <div className="row banner">
           <div className="banner-text">

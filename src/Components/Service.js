@@ -27,7 +27,9 @@ class Service extends Component {
                 <span>What We</span>Do Best
               </h2>
             </Fade>
+            <div>
             {this.loopName()}
+            </div>
           </div>
       </section>
     );
