@@ -53,6 +53,7 @@ header {
   right: 2%;
   bottom: 8%;
   outline: none;
+  z-index: 1000;
 }
 .mail {
   display: inline-block;
@@ -61,7 +62,7 @@ header {
   position: fixed;
   cursor: pointer;
   z-index: 1000;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
   top: 14%;
   right: 2%;
@@ -91,6 +92,17 @@ header {
 header #contact {
   padding-top: 40px !important;
   padding-bottom: 0px;
+}
+header textarea {
+  min-height: 20px !important;
+  height: 80px !important;
+}
+header #contact input,
+#contact textarea,
+#contact select {
+  margin-bottom: 20px;
+}
+header #contact .section-head {
 }
 header .footer-widgets {
   display: none;
