@@ -1,7 +1,17 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
-
+import Contact from "./Contact";
 class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      email: false,
+    };
+  }
+
+  emailFlag = () => {
+    this.setState({ email: !this.state.email });
+  };
   render() {
     if (!this.props.data) return null;
 
@@ -10,7 +20,6 @@ class Header extends Component {
 
     return (
       <header id="home">
-
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -20,23 +29,23 @@ class Header extends Component {
           </a>
 
           <ul id="nav" className="nav">
-              <li className="dropdown current">
-                <a className="smoothscroll" href="#home">
-                  Home
-                </a>
-                <div class="dropdown-content-home">
-                  <li>
-                    <a className="smoothscroll" href="#specification">
-                      Insight
-                    </a>
-                  </li>
-                  <li>
-                    <a className="smoothscroll" href="#benefits">
-                      Certification Benefits
-                    </a>
-                  </li>
-                </div>
-              </li>
+            <li className="dropdown current">
+              <a className="smoothscroll" href="#home">
+                Home
+              </a>
+              <div class="dropdown-content-home">
+                <li>
+                  <a className="smoothscroll" href="#specification">
+                    Insight
+                  </a>
+                </li>
+                <li>
+                  <a className="smoothscroll" href="#benefits">
+                    Certification Benefits
+                  </a>
+                </li>
+              </div>
+            </li>
             <li>
               <a className="smoothscroll" href="#ourexpertise">
                 About
@@ -72,7 +81,18 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
-
+        <div className="float-icon"  onClick={(e) => {
+              this.emailFlag();
+            }}>
+          <img
+            src={"images/email.png"}
+            alt="doc"
+           
+          ></img>
+        </div>
+        {this.state.email &&<div className="mail">
+          <Contact data={this.props.data} />
+        </div>}
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
@@ -83,8 +103,7 @@ class Header extends Component {
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
-              <ul className="social">
-              </ul>
+              <ul className="social"></ul>
             </Fade>
           </div>
         </div>
