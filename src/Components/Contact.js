@@ -4,10 +4,10 @@ let formData = {};
 class Contact extends Component {
   constructor(props) {
     super(props);
-    this.state={}
+    this.state = {};
   }
   handleSubmit = (e) => {
-    let prop=this.props
+    let prop = this.props;
     e.preventDefault(); // Prevents default refresh by the browser
     window.emailjs.send("service_4rhy07w", "template_9vohlof", formData).then(
       function (response) {
@@ -149,24 +149,58 @@ class Contact extends Component {
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <div
-                  className="logo-icon"
-                 
-                >
+                <div className="logo-icon">
                   <img src={"images/logo.png"} alt="doc"></img>
                 </div>
-                <h4>Address and Phone</h4>
+                <div className="headDiv" >
+                <strong className='HeaderAddress'>Address and Phone</strong>
+                </div>
                 <p className="address">
-                  Info@topmetrictechnologies.com
+                  <a
+                    class="link"
+                    href="mailto: Info@topmetrictechnologies.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Info@topmetrictechnologies.com
+                    <img
+                      id="okapi-wasb-icon"
+                      src="/images/gmail.png"
+                      data-no-retina=""
+                      alt="watsapp"
+                      className="whatsapp-image"
+                    />
+                  </a>
+                 
+                   
                   <br />
-                  +91 9987 9987 52
+                  <a
+                    class="link"
+                    href="tel:+919987998752"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    +91 9987 9987 52
+                  </a>
+                  <a
+                    href="https://wa.me/919987998752?text=Hello%2C+How+can+we+help+you%3F"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      id="okapi-wasb-icon"
+                      src="/images/whatsapp.png"
+                      data-no-retina=""
+                      alt="watsapp"
+                      className="whatsapp-image"
+                    />
+                  </a>
                   <br />
-                  {name}
+                 <strong className='HeaderName'> TopMetric Technologies</strong>
                   <br />
                   {street} <br />
                   {city}, {state} {zip}
                   <br />
-                  {/* <span>{phone}</span> */}
                 </p>
               </div>
             </aside>

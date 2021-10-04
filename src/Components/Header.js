@@ -81,19 +81,29 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
-       
-        <div className="float-icon"  onClick={(e) => {
-              this.emailFlag();
-            }}>
-          <img
-            src={"images/email.png"}
-            alt="doc"
-           
-          ></img>
+
+        <div className="float-icon whatsapp">
+          <a
+            href="https://wa.me/919987998752?text=Hello%2C+How+can+we+help+you%3F"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={"images/whatsapp.png"} alt="doc"></img>
+          </a>
         </div>
-        {this.state.email &&<div className="mail">
-          <Contact data={this.props.data} close={()=> this.emailFlag()}/>
-        </div>}
+        <div
+          className="float-icon"
+          onClick={(e) => {
+            this.emailFlag();
+          }}
+        >
+          <img src={"images/email.png"} alt="doc"></img>
+        </div>
+        {this.state.email && (
+          <div className="mail">
+            <Contact data={this.props.data} close={() => this.emailFlag()} />
+          </div>
+        )}
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>

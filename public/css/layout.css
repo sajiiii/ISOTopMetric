@@ -47,13 +47,38 @@ header {
   width: 232px;
   position: absolute;
   cursor: pointer;
-  z-index: 1000;
   left: 0;
   top: -122px;
 }
+.whatsapp-image {
+  width: 8%;
+  height: 11%;
+  margin-left: 2%;
+  position: absolute;
+}
+.HeaderName {
+  font-size: 24px;
+  color: white;
+}
+.HeaderAddress {
+  font: 16px/24px "opensans-bold", sans-serif;
+  color: #ebeeee;
+  margin-bottom: 6px;
+  font-size: 24px;
+  color: white;
+}
+.headDiv {
+  padding-top: 10%;
+}
+.email-image {
+  width: 8%;
+  height: 11%;
+  margin-left: 2%;
+  position: absolute;
+}
 .float-icon {
   display: inline-block;
-  width: 38px;
+  width: 54px;
   border-radius: 50%;
   text-align: center;
   position: fixed;
@@ -62,6 +87,9 @@ header {
   bottom: 8%;
   outline: none;
   z-index: 1000;
+}
+.whatsapp {
+  left: 2%;
 }
 .mail {
   display: inline-block;
