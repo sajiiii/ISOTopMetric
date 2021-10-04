@@ -20,10 +20,13 @@ class Contact extends Component {
       }
     );
   };
-  
   Name = (e) => {
     formData.name = e.target.value;
   };
+  // Number = (e) => {
+  //   console.log(e.target.value)
+  //   formData.number = e.target.value;
+  // };
   email = (e) => {
     formData.to_email = e.target.value;
   };
@@ -72,7 +75,19 @@ class Contact extends Component {
                       onChange={this.Name}
                     />
                   </div>
-
+                  {/* <div>
+                    <label htmlFor="contactNumber">
+                      number <span className="required">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      defaultValue=""
+                      size="35"
+                      id="contactNumber"
+                      name="contactNumber"
+                      onChange={this.Number}
+                    />
+                  </div> */}
                   <div>
                     <label htmlFor="contactEmail">
                       Email <span className="required">*</span>
@@ -134,9 +149,17 @@ class Contact extends Component {
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
+                <div
+                  className="logo-icon"
+                 
+                >
+                  <img src={"images/logo.png"} alt="doc"></img>
+                </div>
                 <h4>Address and Phone</h4>
                 <p className="address">
                   Info@topmetrictechnologies.com
+                  <br />
+                  +91 9987 9987 52
                   <br />
                   {name}
                   <br />
