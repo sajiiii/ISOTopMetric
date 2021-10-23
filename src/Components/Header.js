@@ -15,7 +15,7 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
+    const name = this.props.data.firstPage.name;
     const description = this.props.data.description;
 
     return (
@@ -105,17 +105,19 @@ class Header extends Component {
           </div>
         )}
         <div className="row banner">
-          <div className="banner-text">
+          <div className="banner-text new">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+           
+              <h2 className="responsive-headline headName"  dangerouslySetInnerHTML={{ __html: name }}></h2>
             </Fade>
-            <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
-            </Fade>
+           
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social"></ul>
             </Fade>
+          </div>
+          <div className="mail firstpagemail">
+            <Contact data={this.props.data}  />
           </div>
         </div>
 

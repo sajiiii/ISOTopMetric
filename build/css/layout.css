@@ -37,23 +37,58 @@ header {
   width: 100%;
   text-align: center;
   overflow: hidden;
-  background-image: url("../images/globe.jpg");
+  background-image: url("../images/firstpage1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.secondPage {
+  background-image: url("../images/firstpage.jpg") !important;
+}
 .logo-icon {
   width: 232px;
   position: absolute;
   cursor: pointer;
-  z-index: 1000;
   left: 0;
   top: -122px;
 }
+.whatsapp-image {
+  width: 11%;
+  height: 11%;
+  margin-left: 2%;
+  position: absolute;
+}
+.HeaderName {
+  font-size: 24px;
+  color: white;
+}
+.HeaderAddress {
+  font: 16px/24px "opensans-bold", sans-serif;
+  color: #ebeeee;
+  margin-bottom: 6px;
+  font-size: 24px;
+  color: white;
+}
+.headDiv {
+  padding-top: 10%;
+}
+.address {
+  z-index: 2000;
+}
+.headName {
+  font-size: 50px;
+  line-height: 55px;
+}
+.email-image {
+  width: 11%;
+  height: 11%;
+  margin-left: 2%;
+  position: absolute;
+}
 .float-icon {
   display: inline-block;
-  width: 38px;
+  width: 6%;
   border-radius: 50%;
   text-align: center;
   position: fixed;
@@ -62,6 +97,9 @@ header {
   bottom: 8%;
   outline: none;
   z-index: 1000;
+}
+.whatsapp {
+  left: 2%;
 }
 .mail {
   display: inline-block;
@@ -75,6 +113,33 @@ header {
   top: 3%;
   right: 2%;
   padding-left: 2%;
+}
+.firstpagemail {
+  z-index: 0 !important;
+  top: 12% !important;
+  width: 40% !important;
+  position: absolute !important;
+  box-shadow: -1px 2px 4px 4px #00000054;
+  background-color: #5d5d5d45 !important;
+}
+.firstpagemail #contact {
+  background-color: transparent !important;
+}
+.firstpagemail #contact input,
+.firstpagemail #contact textarea {
+  display: inline;
+}
+.firstpagemail #contact input,
+.firstpagemail #contactMessage {
+  background-color: white !important;
+}
+.firstpagemail #contact input,
+.firstpagemail #contact textarea {
+  color: black !important;
+}
+.firstpagemail #contact .section-head,
+.firstpagemail #contact textarea {
+  margin-bottom: 8px !important;
 }
 .mail {
   scrollbar-color: #fff #e4f1ff;
@@ -110,8 +175,7 @@ header #contact input,
 #contact select {
   margin-bottom: 20px;
 }
-header #contact .section-head {
-}
+
 header .footer-widgets {
   display: none;
 }
@@ -151,6 +215,12 @@ select option {
 header .banner-text {
   width: 100%;
 }
+.descrip {
+  background-color: #0202028f !important;
+}
+header .new {
+  width: 60% !important;
+}
 header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
   color: #fff;
@@ -158,10 +228,11 @@ header .banner-text h1 {
   margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-  font: 18px/1.9em "librebaskerville-regular", serif;
+  font: 25px/1.9em "librebaskerville-regular", serif;
   color: #fff;
   margin: 0 auto;
   width: 70%;
+  text-align: justify;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -1511,7 +1582,6 @@ call-to-action .button {
   height: auto;
   display: inline-block;
   border-radius: 0px;
-  margin-left: 26%;
 }
 #contact button.submit:hover {
   color: #0d0d0d;
@@ -1694,7 +1764,12 @@ footer .social-links li:first-child {
   #specification .blocks {
     padding: 0 0px !important;
   }
-
+  .firstpagemail {
+    display: none;
+  }
+  header .new {
+    width: 100% !important;
+  }
   #specification {
     padding-left: 0% !important;
   }

@@ -9,7 +9,7 @@ class Consulting extends Component {
     const Training = this.props.data.training;
     const Documentation = this.props.data.Documentation;
     const Support = this.props.data.Support;
-    const Guaranted = this.props.data.Guaranted;
+    const Guaranteed = this.props.data.Guaranteed;
 
     return (
       <section id="consulting">
@@ -52,9 +52,9 @@ class Consulting extends Component {
               <div>
               <div className="block-div">
                   <img src={"images/support.png"} alt="doc"></img>
-                  <span className="content">Guaranted</span>
+                  <span className="content">Guaranteed</span>
                 </div>
-                <p className="textpage">{Guaranted}</p>
+                <p className="textpage">{Guaranteed}</p>
               </div>
             </div>
           </div>

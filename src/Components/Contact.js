@@ -9,10 +9,17 @@ class Contact extends Component {
   handleSubmit = (e) => {
     let prop = this.props;
     e.preventDefault(); // Prevents default refresh by the browser
+    // prop.close();
+    document.getElementById("contactForm").reset();
     window.emailjs.send("service_4rhy07w", "template_9vohlof", formData).then(
       function (response) {
-        prop.close();
-        document.getElementById("contactForm").reset();
+        // prop.close();
+         window.gtag('event', 'conversion', {
+      'send_to': 'AW-10792296785/6SsSCJaji_4CENHClZoo',
+      'value': 1.0,
+      'currency': 'INR'
+  });
+         document.getElementById("contactForm").reset();
         alert("Thanks for Your Query...!");
       },
       function (error) {
@@ -23,10 +30,10 @@ class Contact extends Component {
   Name = (e) => {
     formData.name = e.target.value;
   };
-  // Number = (e) => {
-  //   console.log(e.target.value)
-  //   formData.number = e.target.value;
-  // };
+  Number = (e) => {
+    console.log(e.target.value);
+    formData.phone = e.target.value;
+  };
   email = (e) => {
     formData.to_email = e.target.value;
   };
@@ -63,9 +70,6 @@ class Contact extends Component {
               <form id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
-                    <label htmlFor="contactName">
-                      Name <span className="required">*</span>
-                    </label>
                     <input
                       type="text"
                       defaultValue=""
@@ -73,25 +77,21 @@ class Contact extends Component {
                       id="contactName"
                       name="contactName"
                       onChange={this.Name}
+                      placeholder="Name"
                     />
                   </div>
-                  {/* <div>
-                    <label htmlFor="contactNumber">
-                      number <span className="required">*</span>
-                    </label>
+                  <div>
                     <input
                       type="text"
                       defaultValue=""
                       size="35"
                       id="contactNumber"
                       name="contactNumber"
+                      placeholder="Phone"
                       onChange={this.Number}
                     />
-                  </div> */}
+                  </div>
                   <div>
-                    <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
-                    </label>
                     <input
                       type="text"
                       defaultValue=""
@@ -99,11 +99,11 @@ class Contact extends Component {
                       id="contactEmail"
                       name="contactEmail"
                       onChange={this.email}
+                      placeholder="Email"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="contactSubject">Subject</label>
                     <input
                       type="text"
                       defaultValue=""
@@ -111,19 +111,18 @@ class Contact extends Component {
                       id="contactSubject"
                       name="contactSubject"
                       onChange={this.subject}
+                      placeholder="subject"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
-                    </label>
                     <textarea
                       cols="50"
                       rows="15"
                       id="contactMessage"
                       name="contactMessage"
                       onChange={this.message}
+                      placeholder="Message"
                     ></textarea>
                   </div>
 
@@ -131,9 +130,9 @@ class Contact extends Component {
                     <button className="submit" onClick={this.handleSubmit}>
                       Submit
                     </button>
-                    <span id="image-loader">
+                    {/* <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
-                    </span>
+                    </span> */}
                   </div>
                 </fieldset>
               </form>
@@ -152,8 +151,8 @@ class Contact extends Component {
                 <div className="logo-icon">
                   <img src={"images/logo.png"} alt="doc"></img>
                 </div>
-                <div className="headDiv" >
-                <strong className='HeaderAddress'>Address and Phone</strong>
+                <div className="headDiv">
+                  <strong className="HeaderAddress">Address and Phone</strong>
                 </div>
                 <p className="address">
                   <a
@@ -171,8 +170,6 @@ class Contact extends Component {
                       className="whatsapp-image"
                     />
                   </a>
-                 
-                   
                   <br />
                   <a
                     class="link"
@@ -196,7 +193,10 @@ class Contact extends Component {
                     />
                   </a>
                   <br />
-                 <strong className='HeaderName'> TopMetric Technologies</strong>
+                  <strong className="HeaderName">
+                    {" "}
+                    TopMetric Technologies
+                  </strong>
                   <br />
                   {street} <br />
                   {city}, {state} {zip}

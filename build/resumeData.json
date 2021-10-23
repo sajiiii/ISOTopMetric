@@ -1,7 +1,8 @@
 {
   "main": {
+    "firstPage":{"name":"You Build your Business<br/> We take care of your Consulting Process"},
     "name":"TOPMETRIC",
-    "description":"At TopMetric, your certification is guaranteed. Our conviction is in offering hassle-free professional consulting services to fulfill our client's requirements and expectations. The certification solutions offered by our expert consultants make sure that you not only get the certificate; but also get the true business benefits for your organization.Our approach is straightforward and easy to understand. We are one of the handfuls of professional consulting companies with a global customer base and an illustrious service portfolio that covers all the International Quality Certifications.",
+    "description":"At TopMetric, your certification is guaranteed. Our conviction is in offering hassle-free professional consulting services to fulfill our client's requirements and expectations. The certification solutions offered by our expert consultants make sure that you not only get the certificate but also get the true business benefits for your organization.Our approach is straightforward and easy to understand. We are one of the handfuls of professional consulting companies with a global customer base and an illustrious service portfolio that covers all the International Quality Certifications.",
     "image":"saji.jpg",
     "bio":"TopMetric is one of the few consulting organizations in the world that has domain expertise in the majority of all industry sectors. Our unmatched expertise and comprehension of the global economies make it easier for your organization to achieve any International Certification. We avoid using any dense and jargon-loaded words in our training and implementations in the interest of your employees. Our certification programmes have been designed to assist your company to maintain a high level of compliance that is in line with the industry best practices.",
     "subBio":"If you are thinking of certification for your company, trust our expertise and experience in this field and partner with us to create a winning solution for the success and growth of your business.",
@@ -14,14 +15,14 @@
     "Specification":[{"name":"GLOBAL LOCATION","number":"10","image":"global"},{"name":"CONSULTANTS","number":"230","image":"consultant"},{"name":"CERTIFICATIONS","number":"1210","image":"certificate"},{"name":"HAPPY CLIENTS","number":"100%","image":"clients"}],
     "Benefits":[{"name":"Reputation","number":"Brand","image":"certificate"},{"name":"eligibility","number":"Tender","image":"tender"},{"name":"revenue","number":"Increase","image":"revenue"},{"name":"efficiency","number":"Improve","image":"improvement"},{"name":"quality","number":"Better","image":"quality"},{"name":"global","number":"Go","image":"global"}],
     "team":[{"name":"JAYAPRAKASH","content":"15 Years of Experience in Information Security and Technology Development across multiple geographies .","designation":"Director","image":"profilepic","social":["","","",""]},{"name":"JABIULLA","content":"5 Years of Experience in Management Consulting and Business Excellence across multiple industries.","designation":"Bussiness Development Manager","image":"jabi","social":["","","",""]},{"name":"SAJI","content":"3 Years of Experience in Information Technology and Expert in Web Designing, Mobile Applications.","designation":"Tech","image":"saji","social":["saji","saji","saji","sajii_shaik"]}],
-    "Guaranted":"With TopMetric, it is Certification Guaranteed. No Certification, No Fees !",
+    "Guaranteed":"With TopMetric, it is Certification Guaranteed. No Certification, No Fees !",
     "contactmessage":"Get In Touch With Us.",
     "email": "support@topmetrictechnologies.com",
     "phone": "9553121011",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"27th main, sector-2, HSR layout.",
+      "street":" 2nd Floor , 27th Main Rd,  PWD Quarters, 1st Sector, HSR Layout,",
       "city":"Banglore",
       "state":"Karnataka",
       "zip": "560102"
