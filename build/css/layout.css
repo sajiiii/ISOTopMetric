@@ -108,7 +108,7 @@ header {
   position: fixed;
   cursor: pointer;
   z-index: 1000;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
   overflow-x: hidden;
   top: 3%;
   right: 2%;
@@ -163,8 +163,10 @@ header {
   border: 1px solid #f1f1f1;
 }
 header #contact {
-  padding-top: 40px !important;
+  padding-top: 1% !important;
   padding-bottom: 0px;
+  width: 70%;
+  margin-left: 16%;
 }
 header textarea {
   min-height: 20px !important;
@@ -174,6 +176,8 @@ header #contact input,
 #contact textarea,
 #contact select {
   margin-bottom: 20px;
+  width: 100% !important;
+  height: 1%;
 }
 
 header .footer-widgets {
@@ -1767,6 +1771,10 @@ footer .social-links li:first-child {
   .firstpagemail {
     display: none;
   }
+  .float-icon {
+    width: 19%;
+    bottom: 0%;
+  }
   header .new {
     width: 100% !important;
   }
@@ -1792,7 +1800,7 @@ footer .social-links li:first-child {
   header #contact input,
   #contact textarea,
   #contact select {
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
   }
   #service .blocks {
     width: 97% !important;

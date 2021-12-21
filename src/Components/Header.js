@@ -91,14 +91,14 @@ class Header extends Component {
             <img src={"images/whatsapp.png"} alt="doc"></img>
           </a>
         </div>
-        <div
+        {/* <div
           className="float-icon"
           onClick={(e) => {
             this.emailFlag();
           }}
         >
           <img src={"images/email.png"} alt="doc"></img>
-        </div>
+        </div> */}
         {this.state.email && (
           <div className="mail">
             <Contact data={this.props.data} close={() => this.emailFlag()} />

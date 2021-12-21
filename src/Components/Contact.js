@@ -6,26 +6,28 @@ class Contact extends Component {
     super(props);
     this.state = {};
   }
+
   handleSubmit = (e) => {
     let prop = this.props;
     e.preventDefault(); // Prevents default refresh by the browser
-    // prop.close();
-    document.getElementById("contactForm").reset();
-    window.emailjs.send("service_4rhy07w", "template_9vohlof", formData).then(
-      function (response) {
-        // prop.close();
-         window.gtag('event', 'conversion', {
-      'send_to': 'AW-10792296785/6SsSCJaji_4CENHClZoo',
-      'value': 1.0,
-      'currency': 'INR'
-  });
-         document.getElementById("contactForm").reset();
-        alert("Thanks for Your Query...!");
-      },
-      function (error) {
-        console.log("FAILED...", error);
+    try {
+      if (prop && typeof prop.close === "function") {
+        prop.close();
       }
-    );
+      document.getElementById("contactForm").reset();
+      window.emailjs.send("service_zk2dlhl", "template_9vohlof", formData).then(
+        function (response) {
+          document.getElementById("contactForm").reset();
+
+          window.location = "https://topmetricthankyoupage-1362c.web.app/";
+        },
+        function (error) {
+          console.log("FAILED...", error);
+        }
+      );
+    } catch (ERROR) {
+      console.log(ERROR);
+    }
   };
   Name = (e) => {
     formData.name = e.target.value;
